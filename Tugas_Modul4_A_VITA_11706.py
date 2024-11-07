@@ -51,7 +51,7 @@ if uploaded_file is not None:
     model_path = {
         "AGG_model" : os.path.join(r'AGG_model.pkl'),
         "KMeans_model" : os.path.join(r'KMeans_model.pkl'),
-        "DBSCAN_model" : os.path.join(r'DBSCAN.pkl'),
+        "DBSCAN_model" : os.path.join(r'DBSCAN_model.pkl'),
     }
 
     models = {}
